@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*body {*/
+    /*background-color: #DBEEFD;*/
+/*}*/
+ul {
+    list-style: none;
+}
+i {
+    font-style: normal;
+}
+
+/*!*element-ui 中的标签是类标签？？？？*!*/
+/*.el-button {*/
+/*padding : 0;*/
+/*text-decoration: underline;*/
+/*}*/
+
+/*由于在组件中写了 scoped，所以无法修改element-ui的样式，所以在全局中修改。*/
+.el-dialog__body {
+    padding: 0;
+}
+.el-dialog__header {
+    padding: 0;
+}
+
+.el-dialog {
+    width: 356px;
+    height: 420px;
+}
+/*tab栏的input框*/
+.content-tab-search .el-input__inner {
+    display: inline-block;
+    width: 166px;
+    height: 25px;
+    border: 1px solid #D8DADD;
+    border-radius: 0;
+}
+
+/*发帖部分的input框*/
+.topic-title .el-input__inner {
+    height: 30px;
+}
+/*帖子详情右边的登录框*/
+.login-input-user .el-input__inner {
+    height: 30px;
+}
+.login-input-password .el-input__inner {
+    height: 30px;
+}
